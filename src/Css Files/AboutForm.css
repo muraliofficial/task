@@ -1,0 +1,49 @@
+#About .form-control {
+  outline: none;
+  border: none;
+  background-color: #dbdbdb;
+  padding: 10px 10px;
+}
+#About p {
+  color: #a1a1a1;
+  text-align: center;
+  font-size: 20px;
+  display: inline-flex;
+  margin-left: 40%;
+}
+#About span p {
+  color: #a1a1a1;
+  font-size: 16px;
+}
+label span p {
+  font-size: 16px;
+}
+.inputfieldbox {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.inputfieldbox .card {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed #c0c0c0;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none; 
+}
+
+label{
+  font-weight: 500;
+}
+
+.row span label {
+  font-size: 20px;
+  cursor: pointer;
+  color: #c0c0c0;
+}

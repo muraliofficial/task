@@ -1,0 +1,9 @@
+#Additionaldeatils div{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#benefits, #details{
+    display: flex;
+    justify-content: space-between;
+}
